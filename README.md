@@ -33,3 +33,12 @@ Surge
 Gulp 
 Bower
 NPM
+
+## Transpiling
+
+Babel
+Typescript
+Elm
+
+## Bundling
+
