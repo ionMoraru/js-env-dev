@@ -42,3 +42,11 @@ Elm
 
 ## Bundling
 
+Require.js-
+Browserify+
+Rollup+++
+JSPM
+WEBPACK++
+
+https://gist.github.com/coryhouse/d611e83e432f3ae65cc46ebb9b599930
+
