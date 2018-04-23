@@ -56,16 +56,65 @@ JSLint
 JSHint
 ESLint
 
-## Decision 1: Config format
-## Decision 2: Which rules
-## Decision 3: Warnings or errors
-## Decision 4: Plugins
+### Decision 1: Config format
+### Decision 2: Which rules
+### Decision 3: Warnings or errors
+### Decision 4: Plugins
 eslint-react-plugin
 
-## Decision 5: Preset
+### Decision 5: Preset
 
 https://gist.github.com/coryhouse/61f866c7174220777899bcfff03dab7f
 https://github.com/dustinspecker/awesome-eslint
+
+## Testing and continuous integration
+Unit - single function or module
+Integration - interaction between modules
+UI - Automate interaction with UI
+
+### Testing Framework
+
+Mocka
+Jasmine
+Jest
+Tape
+Ava
+QUnit
+
+### Assertion library
+
+Chai
+Should
+Expect
+
+### Helper Library
+
+JSDOM - virtual dom
+Cheerio - query virtual dom using jquery
+
+### Where to run tests
+
+Browser
+  - Karma, Testem
+Headless Browser
+  - Phantom JS
+In-memory DOM
+  - JSDOM
+
+### Where do test files
+Centralized
+Alongside
+
+### When should test run
+
+run upon save for unit testing
+
+## Continuous Integration
+
+Run automated build
+Run yout tests
+Check code coverage 
+Automate deployement
 
 
 
