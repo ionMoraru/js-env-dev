@@ -116,6 +116,14 @@ Run yout tests
 Check code coverage 
 Automate deployement
 
+Travis (linux)
+Appveyeor (windows)
+Jenkins
+CircleCI
+Semaphore
+SnapCI
+
+
 
 
 
