@@ -124,6 +124,27 @@ Semaphore
 SnapCI
 
 
+## HTTP Calls
+
+### Browser
+* XMLhttprequest
+* jquery
+* Framework-based (angular)
+* fecth (polyfill)
+* axios
+### Node
+* http
+* request
+
+### BN
+
+* isomorphic-fetch
+* xhr
+* SuperAgent
+* Axios
+
+### Centralize API calls
+
 
 
 

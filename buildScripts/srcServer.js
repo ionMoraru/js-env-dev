@@ -17,6 +17,10 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, '../src/index.html'))
 })
 
+app.get('/user', (req, res) => {
+  res.json({'rf': 0})
+})
+
 app.listen(port, (err) => {
   if (err) {
     console.log(err)
