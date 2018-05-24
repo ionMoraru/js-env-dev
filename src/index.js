@@ -1,8 +1,13 @@
 import './style.css'
 import numeral from 'numeral'
-import {getUsers} from './api/userApi'
+import {getUsers, deleteUser} from './api/userApi'
 
 getUsers()
+  .then(result => {
+    console.log(result); //eslint-disable-line no-console
+  })
+
+  deleteUser()
   .then(result => {
     console.log(result); //eslint-disable-line no-console
   })

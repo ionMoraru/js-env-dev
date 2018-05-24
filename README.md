@@ -145,6 +145,84 @@ SnapCI
 
 ### Centralize API calls
 
+### Polyfill
+https://polyfill.io/v2/docs/
+
+### Mock API
+
+* Work offline;
+* Start working without  API
+
+#### How to mock API
+
+* Nock
+* Static JSON
+* Create dev server
+- api-mock
+- JSON server
+- JSON Schema faker
+- Express
+
+#### The plan
+
+1. Declare our schema:
+- JSON Schema faker
+
+http://json-schema-faker.js.org/
+
+2. Generate random data
+- faker.js
+- chance.js
+- randexp.js
+
+3. Serve data via API
+- JSON server
+
+https://gist.github.com/coryhouse/300ed803148caaf9d4f3f45d1a03874d
+
+
+
+## Project Structure
+- Organising by features
+- Extract login in POJOs
+
+## Production build
+* Minification (dead code elimination)
+* Sourcemaps
+* Dynamic HTML
+* Cache busting
+* Bundle splitting
+* Error logging
+  Track.js
+  Sentry
+  New relic
+  raygun
+
+## Production deploy
+* Separating the UI from the API
+* Automated deployment
+  Cloud Hosting:
+  - AWS
+  - M Azure
+  - Heroku
+  - G Cloud Platform
+  - Firebase
+  - Github (only static file)
+  - Surge (only static file)
+  - Netlify (only static file)
+* Handling starter kit updates
+  Update approaches:
+  - yeoman
+  - github
+  - npm
+* Inspiration
+Angular 
+https://github.com/gianarb/awesome-angularjs
+
+Reactjs
+
+https://www.javascriptstuff.com/react-starter-projects/
+
 
 
 
